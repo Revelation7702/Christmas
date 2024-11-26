@@ -147,5 +147,7 @@
       color: #ff4b5c;
           }
 @media(max-width:800px){
-   flex-direction:columns;
+   .product-card{
+      flex-direction:columns;
+   }
 }
