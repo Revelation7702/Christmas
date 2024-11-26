@@ -1,0 +1,148 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #e0e5ec;
+      color: #333;
+    }
+
+    /* Neumorphic Header */
+    header {
+      background: #e0e5ec;
+      box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #ff4b5c;
+    }
+
+    header nav a {
+      text-decoration: none;
+      color: #47a025;
+      font-size: 1rem;
+      font-weight: bold;
+      margin-left: 20px;
+      transition: color 0.3s ease-in-out;
+    }
+
+    header nav a:hover {
+      color: #ff4b5c;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #47a025;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin: 20px 0;
+      color: #555;
+    }
+
+    .hero button {
+      background: #e0e5ec;
+      box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #ffffff;
+      border: none;
+      border-radius: 30px;
+      padding: 15px 30px;
+      font-size: 1rem;
+      color: #ff4b5c;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .hero button:hover {
+      box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #ffffff;
+    }
+
+    /* Product Section */
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .product-card {
+      background: #e0e5ec;
+      box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product-card h3 {
+      font-size: 1.2rem;
+      color: #47a025;
+      margin: 15px 0 10px;
+    }
+
+    .product-card p {
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    .product-card button {
+      background: #ff4b5c;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+    }
+
+    .product-card button:hover {
+      background: #e63946;
+    }
+
+    /* Footer */
+    footer {
+      background: #e0e5ec;
+      box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+      padding: 20px;
+      text-align: center;
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    footer p {
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #47a025;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      color: #ff4b5c;
+    }
