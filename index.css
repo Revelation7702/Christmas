@@ -146,8 +146,14 @@
     footer a:hover {
       color: #ff4b5c;
           }
-@media(max-width:768px){
+@media(max-width:768px) {
+   .products{
+      flex-direction:column;
+      align-items:center;
+   }
    .product-card{
-      flex-direction:columns;
+      width:100%;
+      margin-bottom:20px;
+
    }
 }
